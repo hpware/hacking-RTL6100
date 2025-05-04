@@ -1,6 +1,8 @@
 # 駭進去遠傳提供的 Dynalink RTL6100W
 
 ## 連結：
+- GitHub Repo: [hpware/hacking-RTL6100](https://github.com/hpware/hacking-RTL6100)
+- GitHub Issues [Issues](https://github.com/hpware/hacking-RTL6100/issues)
 - 畫的大慨圖： [drawings](/drawings.md)
 - 資訊來源: [sources](/sources.md)
 
