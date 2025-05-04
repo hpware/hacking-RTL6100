@@ -23,5 +23,7 @@ description: 駭進去遠傳提供的神秘 Dynalink RTL6100W，一個奇怪的�
 
 ## 晶片
 這個 RTL6100 主要使用這些晶片：
-- Realtek RTL8367 (網路孔的算交換器的東西)
+- Realtek RTL8367 (交換器的晶片)
 - Realtek RTL8197 (提供 WiFi 2.4GHz 的訊號 支援 802.11b/g/n)
+- ASIX AX88179 (把 Android 的熱點變成網路孔，啊難怪需要交換器的晶片)
+- 
