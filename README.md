@@ -13,11 +13,15 @@
 4. Dynalink RTL0100CT 和 Dynalink RTL6100 使用的 ROM 不一樣
 5. 把後面的 LTE PCIE 的東西移除無法開機，就像電源會先到那邊去再送電到其他的東西，如果你想插你已經有的 WiFi卡 or 硬碟 有 99% 會壞掉。
 6. 他用的膠，可以使用一個扁的Screwdriver (Flathead Screwdriver)，並把它斷開，就可以看到裡面。
+7. 
 
 ## 神秘的 Micro-B 孔
 這個感覺是一個給開發者刷程式/進入 ADB 的孔 (對這個跑 Android)，但是 `./adb devices` 沒有顯示，而且他在開機後2秒就消失了。
 
 ## 晶片
 這個 RTL6100 主要使用這些晶片：
-- Realtek RTL8367 (網路孔的算交換器的東西)
+- Realtek RTL8367 (交換器的晶片)
 - Realtek RTL8197 (提供 WiFi 2.4GHz 的訊號 支援 802.11b/g/n)
+- ASIX AX88179 (把 Android 的熱點變成網路孔，啊難怪需要交換器的晶片)
+- Qualcomm SDA20
+- Micron OSA97 eMMC?
